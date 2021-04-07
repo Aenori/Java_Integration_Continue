@@ -15,6 +15,6 @@ public class App
     
     public static RealMatrix addRealMatrix(RealMatrix m1, RealMatrix m2)
     {
-    	return m1; // .add(m2);
+    	return m1.add(m2);
     }
 }
